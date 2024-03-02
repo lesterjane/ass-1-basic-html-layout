@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Basic Layout with Background Color</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+        }
+
+        .header {
+            background-color: #e4c8e0; 
+            padding: 50px;
+            text-align: center;
+           
+        }
+
+        .navigation {
+            background-color: #bce3f5; 
+            padding: 50px;
+            text-align: center;
+            
+        }
+
+        .side {
+            background-color: #f4eac6; 
+            padding: 22px;
+            float: left;
+            width: 20%;
+            height: 1000px;
+        }
+
+        .main {
+            background-color: #cbc7e8; 
+            padding: 50px;
+            float: left;
+            width: 50%;
+            height: 906px;
+                }
+
+        .footer {
+            background-color: #f4e8f5; 
+            padding: 50px;
+            text-align: center;
+            clear: both;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>Header</h1>
+    </div>
+
+    <div class="navigation">
+        <p>Navigation Menu</p>
+    </div>
+
+    <div class="side">
+        <h2>Side Content</h2>
+        
+    </div>
+
+    <div class="main">
+        <h2>Main Content</h2>
+        
+    </div>
+
+    <div class="side">
+        <h2>Side Content</h2>
+        
+    </div>
+
+    <div class="footer">
+        <p>Footer</p>
+    </div>
+</body>
+</html>
